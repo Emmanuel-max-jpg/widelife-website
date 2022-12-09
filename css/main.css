@@ -62,7 +62,7 @@ a.logo:hover {
 }
 
 .menu > li > a:hover {
-  color: white;
+  color: rgba(51, 51, 51, 0.8);
   text-decoration: none;
 }
 .menu > li:not(:first-child):nth-child(-n + 5) > a {
@@ -84,12 +84,15 @@ a.logo:hover {
 }
 
 #hero {
-  background-image: url("/img/R.jpg");
+  background-image: url("/img/hero-bg.webp");
   height: 600px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  padding-left: 100px;
+  padding-top: 70px;
 }
-.div {
+/* .div {
   background-color: red;
   color: red;
   height: 25px;
@@ -97,20 +100,35 @@ a.logo:hover {
   padding: 7px;
 
   margin-left: 30px;
-}
+} */
 
 .rectangle {
-  background-color: #ff7605;
-  width: 200px;
-  height: 50px;
+  background-color: orangered;
+  width: 150px;
+  height: 30px;
 }
 
-.goat {
-  font-size: 80px;
-  padding: 25px 10px;
-  color: rgb(255, 174, 0);
+.hero-headline {
+  font-size: 6.5em;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.1em;
+  margin-top: 20px;
 }
-.get {
+
+.hero-headline span {
+  color: orangered;
+}
+
+.hero-description {
+  margin-top: 40px;
+  color: black;
+  width: 350px;
+  font-size: medium;
+}
+
+.get-involved {
   background-color: #000;
   font-weight: bold;
   font-size: 14px;
@@ -120,29 +138,33 @@ a.logo:hover {
   width: 350px;
   height: 80px;
 }
-.get:hover {
+
+.get-involved:hover {
   background-color: rgb(255, 115, 0);
+  color: white;
+}
+
+.jack {
+  padding: 150px 30px;
 }
 
 .stat {
   display: flex;
-  gap: 8em;
+  gap: 2em;
   font-weight: 900;
   font-size: 26px;
-  margin: 100px 5px;
-  justify-content: space-between;
-}
-.jack {
-  padding: 30px 30px;
-}
-.words {
+  justify-content: left;
   color: #000;
 }
-.numb {
+
+.stat .numb {
   color: orangered;
-  font-weight: 1500;
+  font-weight: 900;
   font-size: 100px;
+  display: block;
+  margin-bottom: 50px;
 }
+
 .main-info {
   display: flex;
   justify-content: space-between;
