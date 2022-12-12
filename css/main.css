@@ -167,41 +167,61 @@ a.logo:hover {
 
 .main-info {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  background-color: red;
 }
 .about {
   background-color: #000;
   color: #fff;
-  padding: 60px 10px;
-  font-weight: 600px;
+  padding: 75px 75px;
+  font-weight: 100px;
 }
-.kifi {
-  padding: 50px 50px;
-  font-weight: 400px;
-}
-.learn {
-  border: solid;
+.text {
+  margin-top: 40px;
+  color: white;
+  width: 350px;
+  font-size: 13px;
+  padding-bottom: 30px;
+  font-weight: 20px;
 }
 
-.last-chance {
-  font-size: 40px;
-  font-weight: 600px;
-  padding: 100px 20px;
+
+.box-1 {
+  width: 89px;
+  height: 30px;
+  background-color: black;
+  border: solid;
+  text-align: center;
+  padding: 2px 2px;
+}
+
+.box-2 {
+  width: 89px;
+  height: 30px;
+
+  border: solid;
+  text-align: center;
+}
+
+.sub-heading {
+  font-size: 30px;
+  font-weight: 1500px;
 }
 
 .upcoming {
   background-color: #7eb7e4;
   color: #fff;
-  padding: 50px 25px;
-  justify-content: center;
-  font-weight: 600;
+  padding: 75px 75px;
+  font-weight: 100px;
 }
-.mifi {
-  padding: 50px 100px;
-  font-weight: 400px;
+.box-1:hover {
+  background-color: #fff;
+  color: #000;
 }
+
+.box-2:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 #pune {
   background-image: url("/img/lion.webp");
 
@@ -216,10 +236,7 @@ a.logo:hover {
   width: 400px;
   color: white;
 }
-rat {
-  font-weight: 500px;
-  padding: 10px 40px;
-}
+
 .Latest {
   font-size: 50px;
   padding: 150px 50px;
